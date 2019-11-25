@@ -2,7 +2,7 @@
 
 
 const big = function(){
-    return document.querySelector('input').value=biggify(document.querySelector('input').value)
+    return document.querySelector('input').value=biggify(Number(document.querySelector('input').value))
 }
 
 const nasa = function(){
